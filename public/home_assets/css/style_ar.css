@@ -1,0 +1,164 @@
+/* Sperty */
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500;600&display=swap');
+body , p , a , h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+    font-family: 'Cairo', sans-serif !important;
+}
+body{
+    direction: rtl;
+}
+.row_ar  , .card-style4 , .portfolio-style2 .portfolio-inner{
+    direction: rtl;
+    text-align: right;
+}
+.owl-carousel{
+    direction: ltr;
+}
+.ms-auto {
+    margin-right: auto !important;
+    margin-left: 0 !important;
+}
+.ms-lg-auto {
+    margin-right: auto !important;
+    margin-left: 0 !important;
+}
+.attr-nav{
+    float: left;
+}
+/* .left-overlay-dark[data-overlay-dark]:before{
+    background: linear-gradient(90deg, transparent, #2a334e 65%);
+} */
+.left-5 {
+    right: 5%;
+    left: inherit;
+}
+
+.right-5 {
+    left: 5%;
+    right: inherit;
+}
+.left-1 {
+    right: -1px;
+    left: inherit;
+}
+.border-sm-end {
+    border-left: 1px solid #dee2e6 !important;
+    border-right: none !important;
+}
+.border-lg-end {
+    border-left: 1px solid #dee2e6 !important;
+    border-right: none !important;
+}
+.text-start {
+    text-align: right !important;
+}
+.ms-3 {
+    margin-right: 1rem !important;
+    margin-left: 0 !important;
+}
+.pe-md-5 {
+    padding-left: 3rem !important;
+    padding-right: 0 !important;
+}
+.title-style2 .sub-title:before{
+    margin: 0px 0 0 8px;
+}
+.cd-headline.clip .cd-words-wrapper::after{
+    left: 0;
+    right: inherit;
+}
+.cd-words-wrapper b{
+    right: 0;
+    left: inherit;
+}
+.cd-words-wrapper{
+    text-align: right;
+}
+.about-style1 .shadow-block{
+    right: -40px;
+    left: inherit;
+}
+.about-style1 .shadow-block i{
+    right: -35px;
+    left: inherit;
+}
+.ps-5 {
+    padding-right: 3rem !important;
+}
+
+.pe-4 {
+    padding-left: 1.5rem !important;
+}
+.list-style1 li{
+    padding: 0 40px 0 0;
+}
+.list-style1 li:before{
+    right: 0;
+    left: inherit;
+    margin-left: 12px;
+    margin-right: 0;
+}
+.right {
+    left: 0;
+    right: inherit;
+}
+.categories-slider .owl-prev{
+    left: -25px;
+    right: inherit;
+}
+.categories-slider .owl-next{
+    right: -25px;
+    left: inherit;
+}
+.left {
+    right: 0;
+    left: inherit;
+}
+.menu_area .navbar-brand{
+    margin-left: 1rem;
+    margin-right: 0;
+}
+.navbar-toggler{
+    left: 0;
+    right: inherit;
+}
+.navbar-nav ul{
+    right: 0;
+    left:inherit ;
+}
+.navbar-nav{
+    padding-right: 0;
+}
+.navbar > ul > li.has-sub > a:after{
+    left: 2px;
+    right: inherit;
+}
+.menu_area-light .navbar-nav > li > a{
+    padding: 0 0 0 10px;
+  }
+@media screen and (max-width: 1399px){
+    .about-style1 .shadow-block {
+        right: -20px;
+        left: inherit;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .left-lg-85 {
+        right: 85%;
+        left: inherit;
+    }
+    .left-lg-n5 {
+        right: -5%;
+        left: inherit;
+    }
+    .left-lg-60 {
+        right: 60%;
+        left: inherit;
+    }
+    .left-lg-35 {
+        right: 35%;
+        left: inherit;
+    }
+}
+
